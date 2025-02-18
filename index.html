@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WinniePat</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <h1 data-aos="fade-right">WinniePat</h1>
+            <div class="nav-links">
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="home" data-aos="fade-right">
+        <div class="hero-content">
+            <h1>TEMP</h1>
+            <h2>TEMP</h2>
+        </div>
+        <div class="terminal-animation">
+            <div class="terminal">
+                <div class="terminal-header">
+                    <div class="buttons">
+                        <span class="button close">
+                            <img src="img/x.png" alt="Close" class="button-icon">
+                        </span>
+                        <span class="button minimize">
+                            <img src="img/minus.png" alt="Minimize" class="button-icon">
+                        </span>
+                        <span class="button maximize">
+                            <img src="img/square.png" alt="Maximize" class="button-icon">
+                        </span>
+                    </div>
+                    <div class="title">user@winniepat: ~</div>
+                </div>
+                <div class="terminal-body">
+                    <p id="terminal-output"></p>
+                    <div class="terminal-input" id="terminal-input-container">
+                        <span class="prompt">user@winniepat:~$</span>
+                        <input type="text" id="terminal-input" autofocus disabled />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card" data-aos="zoom-in">
+            <img src="img/project1.png" alt="Project 1" class="project-image">
+            <div class="project-info">
+                <h3>Minecraft und Events</h3>
+                <p>Mehrere Minecraft Community Events</p>
+                <div class="project-tags"></div>
+                <a href="./projects/minecraft.html" class="button">View Details</a>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+            <img src="img/project2.png" alt="Project 2" class="project-image">
+            <div class="project-info">
+                <h3>Coding</h3>
+                <p>Die Basics</p>
+                <div class="project-tags"></div>
+                <a href="./projects/coding.html" class="button">View Details</a>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card full-width" data-aos="zoom-in" data-aos-delay="400">
+            <img src="img/x.png" alt="Project 3" class="project-image">
+            <div class="project-info">
+                <h3>Project 3</h3>
+                <p>This project spans the full width below Project 1 and 2.</p>
+                <div class="project-tags"></div>
+                <a href="./projects/project3.html" class="button">View Details</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://discord.gg/tkKMASrxGx" target="_blank" class="social-link">
+                <img src="img/discord.png" alt="Discord" class="social-icon">
+            </a>
+            <a href="https://www.instagram.com/winniepatgg/" target="_blank" class="social-link">
+                <img src="img/instagram.png" alt="Instagram" class="social-icon">
+            </a>
+            <a href="https://github.com/WinniePatGG" target="_blank" class="social-link">
+                <img src="img/github-mark-white.png" alt="GitHub" class="social-icon">
+            </a>
+            <a href="mailto:winniepatgg@web.de" target="_blank" class="social-link">
+                <img src="img/mail.png" alt="Email" class="social-icon">
+            </a>
+            <a href="https://www.tiktok.com/@winniepatgg" target="_blank" class="social-link">
+                <img src="img/tik-tok.png" alt="TikTok" class="social-icon">
+            </a>
+        </div>
+        <p class="footer-text">&copy; 2025 WinniePat. All rights reserved.</p>
+    </footer>
+</body>
+</html>
